@@ -3,7 +3,7 @@
   body: string[];
 };
 
-export const updatedAt = 'June 26, 2026';
+export const updatedAt = 'July 28, 2026';
 
 export const termsSections: LegalSection[] = [
   {
@@ -11,6 +11,14 @@ export const termsSections: LegalSection[] = [
     body: [
       'GoooMusic lets people create or join shared listening rooms, play eligible music, chat, report rooms, and link a Gooofan account for token and wallet features.',
       'You are responsible for how you use rooms, uploaded content, chat, room names, tags, and shared links. Do not use GoooMusic for harassment, illegal activity, fraud, spam, impersonation, or content that infringes another person\'s rights.',
+    ],
+  },
+  {
+    title: 'Age, community safety, and zero tolerance',
+    body: [
+      'GoooMusic shared rooms and anonymous chat are intended for people who are 18 or older. By using room chat, room tags, uploads, shared links, or other community features, you confirm that you meet this age requirement and agree to these terms.',
+      'We have no tolerance for objectionable content or abusive users. Do not post, upload, tag, link, or share content that is harassing, threatening, hateful, sexually explicit, exploitative, spam, fraudulent, illegal, invasive of privacy, or otherwise unsafe.',
+      'GoooMusic may filter, reject, hide, remove, or limit content before or after it is posted. Users who violate these rules may be muted, removed from rooms, blocked, restricted, suspended, or permanently ejected from Gooofan and GoooMusic services.',
     ],
   },
   {
@@ -24,7 +32,8 @@ export const termsSections: LegalSection[] = [
     title: 'Rooms, controls, and moderation',
     body: [
       'Room administrators may control playback, lock rooms, mute participants from controlling room actions, edit room tags, deactivate rooms, and review participants. Muting limits control permissions; it is not designed to mute a listener\'s device audio.',
-      'Reports help us identify harmful rooms, spam, abuse, underage risk, copyright concerns, and other safety issues. We may investigate reports and take action where appropriate.',
+      'Users can report rooms or messages, block abusive participants, and remove their own chat messages from the feed. Room creators can deactivate rooms immediately when a room becomes unsafe or inappropriate.',
+      'We review objectionable-content and abuse reports within 24 hours. When a violation is confirmed, we remove the offending content where available and may eject, block, suspend, or otherwise restrict the user or session responsible.',
     ],
   },
   {
@@ -68,7 +77,7 @@ export const privacySections: LegalSection[] = [
     title: 'Music, uploads, and reports',
     body: [
       'Uploaded music, cover images, metadata, and room activity may be stored and processed so the service can play tracks, display room information, calculate access and analytics, and respond to moderation or rights concerns.',
-      'Reports may include room identifiers, selected reasons, optional details, and technical context needed to review the issue.',
+      'Reports may include room identifiers, message identifiers, reported session identifiers, selected reasons, optional details, and technical context needed to review the issue and act within the required moderation window.',
     ],
   },
   {
@@ -89,7 +98,7 @@ export const privacySections: LegalSection[] = [
     title: 'Security and children',
     body: [
       'We use reasonable safeguards to protect information, but no internet service is perfectly secure. Do not share sensitive personal information in room chat or public room details.',
-      'GoooMusic is not intended for children below the minimum age required in their location. Reports may be used to review suspected underage or unsafe use.',
+      'GoooMusic shared rooms and anonymous chat are intended for users who are 18 or older. Reports may be used to review suspected underage or unsafe use.',
     ],
   },
 ];
@@ -112,11 +121,11 @@ export const helpTopics = [
     text: 'Use a stable connection, keep the app updated, and avoid low-power restrictions during shared playback. If audio is off after joining late, leave and rejoin after checking your connection.',
   },
   {
-    title: 'Report a room',
-    text: 'Use Report Room from inside a room to flag inappropriate content, harassment, spam, underage risk, copyright concerns, or other issues.',
+    title: 'Report or block abuse',
+    text: 'Use Report Room or the message action menu to flag inappropriate content, harassment, spam, underage risk, copyright concerns, or other issues. You can also block abusive chat participants from the message menu.',
   },
   {
     title: 'Need more help?',
-    text: 'Contact Gooofan support through the main Gooofan support channels while the dedicated GoooMusic help desk is being prepared.',
+    text: 'Contact Gooofan support at support@gooofan.com for safety reports, inappropriate activity, privacy questions, account help, or other GoooMusic support needs.',
   },
 ];
